@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="icut", # Replace with your own username
-    version="0.0.3",
+    name="icut", 
+    version="0.0.4",
     author="Korakot Chaovavanich",
     author_email="korakot@gmail.com",
     description="A fast Thai tokenization library",
