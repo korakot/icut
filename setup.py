@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="icut", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Korakot Chaovavanich",
     author_email="korakot@gmail.com",
     description="A fast Thai tokenization library",
@@ -19,4 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=['pyicu'],
 )
